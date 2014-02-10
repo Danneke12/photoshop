@@ -62,7 +62,7 @@ li {
     padding: 3px 15px;
     border-radius: 20px; 
 }
-
+/* Wie dit leest, Sven is homo*/
 nav ul li:hover, .active {
     background: #323b41; /* Old browsers */
 background: -moz-linear-gradient(top,  #323b41 0%, #46525b 100%); /* FF3.6+ */
