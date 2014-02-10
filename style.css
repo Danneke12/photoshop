@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    height: 588px;
+    padding: 0px 111px;
+    background: url(img/background1.png);
+}
+.header-top {
+    padding-top: 39px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 0;
+    text-indent: -9999px;
+    background: url('img/Apptastico.png') no-repeat;
+    height: 39px;
+    width: 50%;
+    float: left;
+}
+
+a, a:visited, a:link, a:hover {
+    text-decoration: none;
+}
+
+nav {
+    width: 50%;
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 3px 15px;
+    border-radius: 20px; 
+}
+
+nav ul li:hover, .active {
+    background: #323b41; /* Old browsers */
+background: -moz-linear-gradient(top,  #323b41 0%, #46525b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#323b41), color-stop(100%,#46525b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #323b41 0%,#46525b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #323b41 0%,#46525b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #323b41 0%,#46525b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #323b41 0%,#46525b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323b41', endColorstr='#46525b',GradientType=0 ); /* IE6-9 */
+ box-shadow: inset 1px 1px 2px black;
+}
+
+li a {
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
